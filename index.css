@@ -192,3 +192,7 @@ body {
     margin-top: 0;
     display: inline;
 }
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .left, .right {
+      width: 100%;}}
