@@ -1,0 +1,206 @@
+body {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 0;
+    padding: 0;
+    background: #1D3461;
+}
+
+h1 {color: #161B2E;
+    font-family: 'Bebas Neue';
+    font-size: 300%;
+    text-align: center;}
+    
+
+
+.circular--square {border-radius: 50%;
+    width: auto;}
+
+.Intro {
+    float: left;
+    width: 30%;
+    height: 1542px;
+    background: #161B2E;
+}
+.Intro .IntroTittle{
+    width: 80%;
+    color:#f1f4ff;
+    margin-left: 25px;
+    font-size: 25px;
+    font-family: 'Bebas Neue';
+    border-bottom: 2px #f1f4ff solid;
+    margin-bottom: 0;
+}
+.Intro .IntroContent{
+    width: 80%;
+    color:#f1f4ff;
+    margin-left: 25px;
+    font-size: 20px;
+    font-family: 'Barlow';
+    margin-top: 0;
+}
+.Intro .InfoPersonalTittle{
+    width: 80%;
+    color:#f1f4ff;
+    font-weight: bolder;
+    margin-left: 25px;
+    font-size: 20px;
+    font-family: 'Barlow';
+    margin-top: 0;
+    display: inline;
+}
+.Intro .Insta {
+    width: 80%;
+    color:#f1f4ff;
+    font-weight: bolder;
+    margin-left: -15px;
+    font-size: 20px;
+    font-family: 'Barlow';
+    margin-top: 0;
+}
+.Intro .Foto {
+    position: relative;
+    top: 0.5%;
+    left: 18%;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.Intro .Foto img {
+    width: 200px;
+    height: 200px;
+}
+.Name {
+    float: left;
+    width: 70%;
+    height: 300px;
+    background: #f1f4ff;
+}
+
+
+.Direc {
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Barlow';
+    display: inline; 
+}
+.Content {
+    font-size: 20px;
+    font-family: 'Barlow';
+    display: inline; 
+}
+
+.Contenido {
+    float: left;
+    width: 70%;
+    height: auto;
+    background: #f1f4ff; 
+    
+}
+
+.Contenido2 {
+    float: left;
+    width: 70%;
+    height: 172px;
+    background: #f1f4ff; 
+    
+}
+
+.EduTittle {
+    width: 70%;
+    color:#161B2E;
+    margin-left: 25px;
+    font-size: 25px;
+    font-family: 'Bebas Neue';
+    border-bottom: 2px #161B2E solid;
+    margin-bottom: 0;
+}
+.EduIns{
+    width: 70%;
+    color: #161B2E;
+    font-weight: bolder;
+    margin-left: 25px;
+    font-size: 20px;
+    font-family: 'Barlow';
+    margin-top: 0;  
+    display: inline;
+}
+.EduContent {
+    width: 70%;
+    color: black;
+    margin-left: 25px;
+    font-size: 20px;
+    font-family: 'Barlow';
+    margin-top: 0;
+    display: inline;
+}
+.AptitudesYhabilidades {
+    float: left;
+    width: 70%;
+    background: #f1f4ff; 
+    
+}
+.AptitudesYhabilidades .AptitudesYhabilidadesTittle {
+    width: 80%;
+    color:#161B2E;
+    margin-left: 25px;
+    font-size: 25px;
+    font-family: 'Bebas Neue';
+    border-bottom: 2px #161B2E solid;
+    margin-bottom: 0;
+}
+.AptitudesYhabilidades span {
+    display: inline-block;
+    width: 80%;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 15px;
+    width: auto;
+    height: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+    background: #829CBC;
+    color: white;
+    font-family: 'Barlow';
+    border-radius: 10%;
+    font-weight: bolder;
+}
+.Cursos {
+    float: left;
+    width: 70%;
+    background: #f1f4ff;
+}
+.Cursos .CursosTittle {
+    width: 80%;
+    color:#161B2E;
+    margin-left: 25px;
+    font-size: 25px;
+    font-family: 'Bebas Neue';
+    border-bottom: 2px #161B2E solid;
+    margin-bottom: 0;
+}
+.Cursos .CursosIns {
+    width: 80%;
+    color: #161B2E;
+    font-weight: bolder;
+    margin-left: 25px;
+    font-size: 20px;
+    font-family: 'Barlow';
+    margin-top: 0;  
+    display: inline;
+}
+.Cursos .CursosContent {
+    width: 80%;
+    color: black;
+    margin-left: 25px;
+    font-size: 20px;
+    font-family: 'Barlow';
+    margin-top: 0;
+    display: inline;
+}
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .Intro, .Contenido, .AptitudesYhabilidades, .Cursos,  .Contenido2 {
+      width: 100%;}}
